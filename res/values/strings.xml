@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Student Management System</string>
+    <string name="splash_tv_text">Assignment 3</string>
+    <string name="studentListActivity_tv_noData">NO DATA FOUND</string>
+    <string name="studentDetailsActivity_tv_header">STUDENT DETAILS</string>
+    <string name="studentDetailsActivity_tv_name">Name</string>
+    <string name="studentDetailsActivity_tv_rollno">Roll No</string>
+    <string name="studentDetailsActivity_tv_class">Class</string>
+    <string name="studentDetailsActivity_btn_addText">ADD</string>
+    <string name="sortMenu_sort_by_name">name </string>
+    <string name="sortMenu_name">Sort</string>
+    <string name="studentList_btn_addText">Add Student</string>
+    <string name="sortMenu_sort_by_rollno">rollno</string>
+    <string name="toolbar_btn_gridText">GRID</string>
+    <string name="toolbar_btn_listText">LIST</string>
+    <string name="studentList_DialogBox_Title">CHOOSE AN OPTION</string>
+    <string name="Dialog_Option_View">View</string>
+    <string name="Dialog_Option_Edit">Edit</string>
+    <string name="Dialog_Option_Delete">Delete</string>
+    <string name="studentDetailsActivity_btn_updateText">UPDATE</string>
+    <string name="error_enter_name">Please Enter name!</string>
+    <string name="error_invalid_name">Invalid Name!</string>
+    <string name="error_enter_class">Please enter class name</string>
+    <string name="error_invalid_class">Enter alphabets only in class</string>
+    <string name="error_invalid_rollno">Invalid Rollno!</string>
+    <string name="error_enter_rollno">Please Enter Rollno!</string>
+
+
+</resources>

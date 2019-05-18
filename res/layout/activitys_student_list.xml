@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <TextView
+        android:id="@+id/id_studentListActivity_tv_noData"
+
+        android:text="@string/studentListActivity_tv_noData"
+        android:textSize="@dimen/large_textsize"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_below="@id/toolbar"
+        android:padding="@dimen/layout_padding"
+        android:layout_width="match_parent"
+        android:id="@+id/student_list_recylerView"
+        android:layout_above="@id/btn"
+        android:layout_height="match_parent"
+        tools:context=".StudentsListActivity">
+</android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/btn"
+
+        android:layout_marginBottom="@dimen/view_margin"
+        style="@style/primaryRoundedButton"
+        android:onClick="moveToStudentDetails"
+        android:layout_alignParentBottom="true"
+        android:text="@string/studentList_btn_addText"
+         />
+
+</RelativeLayout>
+
+

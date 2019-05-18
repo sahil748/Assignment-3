@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_id_sort"
+        android:title="@string/sortMenu_name"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/id_menu_sort_by_name"
+                android:title="@string/sortMenu_sort_by_name"
+                android:onClick="menuItemSelected"/>
+            <item android:id="@+id/id_menu_sort_by_rollno"
+                android:title="@string/sortMenu_sort_by_rollno"
+                android:onClick="menuItemSelected"/>
+        </menu>
+    </item>
+</menu>

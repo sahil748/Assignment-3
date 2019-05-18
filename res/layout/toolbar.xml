@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+<Button
+    android:id="@+id/id_toolbar_btn_changeView"
+    android:text="@string/toolbar_btn_gridText"
+    style="@style/primaryRoundedButton"
+    android:onClick="changeView"
+    android:layout_width="wrap_content" />
+
+</android.support.v7.widget.Toolbar>
